@@ -25,7 +25,7 @@
   },
   { 
     "remote":      "github",
-    "repository":  "Cyanogenmod/android_packages_apps_Snap",
+    "repository":  "CyanogenMod/android_packages_apps_Snap",
     "target_path": "packages/apps/Snap",
     "branch":      "cm-13.0"
   }
