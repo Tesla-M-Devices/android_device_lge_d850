@@ -36,11 +36,11 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_GCC_VERSION_EXP := 4.9-uber
 
 # Optimizations
-CLANG_O3 := false
+CLANG_O3 := true
 STRICT_ALIASING := false
-KRAIT_TUNINGS := false
+KRAIT_TUNINGS := true
 GRAPHITE_OPTS := false
-ENABLE_GCCONLY := false
+ENABLE_GCCONLY := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
