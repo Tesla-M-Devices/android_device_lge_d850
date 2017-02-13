@@ -25,7 +25,7 @@ BLUETOOTH_HCI_USE_MCT := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d850/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_d850_defconfig
+TARGET_KERNEL_CONFIG := lineageos_d850_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
