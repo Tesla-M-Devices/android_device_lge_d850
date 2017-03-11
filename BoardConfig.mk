@@ -39,6 +39,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Recovery
 TARGET_RECOVERY_FSTAB := device/lge/d850/rootdir/etc/fstab.g3
 
+# RIL
+BOARD_RIL_CLASS += ../../../device/lge/d850/ril/
+
 # NFC
 BOARD_NFC_CHIPSET := pn547
 

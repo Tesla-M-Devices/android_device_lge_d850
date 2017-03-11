@@ -40,6 +40,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
 
+# RIL
+PRODUCT_PACKAGES += \
+    init.target.rc \
+    ril_shim
+
 # Wifi
 PRODUCT_PACKAGES += \
     hostapd_default.conf \
